@@ -33,3 +33,25 @@ function GoalInput({onAddGoal}){
 }
 
 export default GoalInput
+
+const styles = StyleSheet.create({
+    inputContainer: {
+        flex: 1,
+        flexDirection:"row",
+        justifyContent: "space-between",
+        alignItems:"center",
+        marginBottom:20,
+        borderBottomWidth:1,
+        borderBottomColor:"#7BC9FF"
+        
+    },
+    TextInput:{
+        borderWidth: 1,
+        bordercolor:"#cccccc",
+        Width:'80%',
+        marginRight:3,
+        padding:8,
+        borderRadius:5
+
+    },
+})
